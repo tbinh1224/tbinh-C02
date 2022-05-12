@@ -1,0 +1,65 @@
+main{
+   display: flex;
+   font-size: larger;
+   background-color: aliceblue;
+   border-radius: 20px;
+   font:"Courier New";
+        }
+
+        #rp {
+            padding-left: 180px;
+            padding-top: 20px;
+
+
+        }
+        small{
+            color: #DC7041;
+        }
+    .confirm{
+        background-color: #458887e6;
+        border-radius: 20px;
+        width: 100px;
+        height: 30px;
+        color: black;
+        border-color: bisque;
+    }
+     #reset{
+         background-color: #AD3636;
+         border-radius: 20px;
+         width: 100px;
+         height: 30px;
+         color: whitesmoke;
+         border-color: bisque;
+     }
+     body{
+        background-image: url(./c02-form-homework/join-background.jpg);
+        background-position: center top;
+        padding: 100px 200px;
+        
+
+    
+     }
+    #lp{
+        margin-right: 20px;
+        padding: 20px;
+        
+
+    }
+    #register {
+        margin-bottom: 50px;
+    }
+    #head1{
+        font-size: xx-large ;
+        font:"Verdana";
+        background-color: gray;
+        color: whitesmoke;
+        text-align: center;
+        border-radius: 30px;
+
+
+    } 
+    .key {
+      color: red;
+
+    }
+    

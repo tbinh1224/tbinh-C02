@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head1">My account </h1>
+    <main>
+        <aside id="lp">
+           <form>
+       <h2>Login</h2>
+       <p>Username or email address <span class="key">*</span>       </p> 
+       
+
+       <input type="text" name="username" id="username" required autocomplete="" placeholder="Enter Username" autofocus/>
+       <label for="username"></label>
+       
+       
+    
+       
+        <p>Password<span class="key">*</span></p>
+        
+    
+        <input type="password" name="lpassword" id="lpassword" required placeholder="Enter Password"/>
+        <label for="password"></label>
+        
+        <input type="checkbox" name="remember">
+        <label for="remember">Remember me</label>
+        
+        <input type="submit" name="submit" value="Login" id="login" class="confirm"><br>
+        
+         <a href="https://www.facebook.com/recover/initiate/">Lost your password? </a>
+        
+           </form>
+        </aside>
+            <aside id="rp">
+            <form>
+            <h2>Register</h2>
+            <p>Email address<span class="key">*</span></p>
+              
+            <input type="email" name="email" id="email" placeholder="Enter Email" required/>
+          
+            <p>Password<span class="key">*</span></p>
+            
+            <input type="password" name="rpassword" id="rpassword" placeholder="Enter password" required/>
+
+            <h3>Custom Fields</h3>
+            <p>User Role<span class="key">*</span></p>
+            
+            <select name="Role" required>
+               <option value="Teacher">Teacher</option>
+               <option value="Student">Student</option>
+               <option value="Parent">Parent</option>
+               <option value="Guest">Guest</option>
+            </select>
+            <label for="Role"></label>
+            
+
+            <p>How Did You Find Us?</p>
+            <select name="source">
+              <option value="Google">Google</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Discord">Discord</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Family">Family</option>
+              <option value="Friends">Friends</option>
+            </select>
+            <label for="source"></label>
+            
+
+            <p>Gender</p>
+            
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="notspecify">
+            <label for="notspecify">Not Specify</label>
+            
+
+            <p>Upload Your License<span class="key">*</span></p>
+            
+            <input type="file" name="your-license" required/><br>
+            <small>The allowed file types are pdf,jpg and doc.</small>
+
+
+            <p>Date of Birth<span class="key">*</span></p>
+            <input type="date" name="birthday" value="dd/mm/yyyy" required><br>
+            <small>Please specify your date of birth.</small>
+             <p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="https://transparency.fb.com/en-gb/policies/community-standards/privacy-violations-image-privacy-rights/" target="_blank">privacy policy</a></p>
+             
+             <input type="submit" name="register" value="Register" class="confirm" id="register">
+             <input type="reset" name="reset" value="Reset" id="reset">
+           </form>
+          </aside>
+   </main>
+    
+</body>
+</html>
